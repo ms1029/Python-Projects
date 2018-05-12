@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% block title %}{% endblock %}</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Notebook Application</h1>
+      {% block body %}
+      {% endblock %}
+      <footer class="footer">
+        <p class="text-center">© 2016 Abraar Syed</p>
+      </footer>
+    </div>
+  </body>
+</html>
